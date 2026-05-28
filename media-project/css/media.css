@@ -1,0 +1,143 @@
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 992px){
+
+    .cantenar{
+        padding: 20px;
+        flex-wrap: wrap;
+        height: auto;
+        gap: 20px;
+    }
+
+    .nav{
+        gap: 20px;
+    }
+
+    .nav-r{
+        gap: 15px;
+    }
+
+    .mane{
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .mane-left img{
+        width: 100%;
+        max-width: 450px;
+    }
+
+    .mane-right{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .mane-right h1{
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+    .product-box{
+        gap: 30px;
+    }
+
+    footer{
+        justify-content: center;
+        gap: 20px;
+        text-align: center;
+    }
+
+}
+
+
+
+@media (max-width: 768px){
+
+    .cantenar{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .nav{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-r{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .menu{
+        gap: 20px;
+        flex-wrap: wrap;
+        height: auto;
+        padding: 20px;
+    }
+
+    .menu i{
+        position: static;
+    }
+
+    .mane-right h1{
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .products{
+        padding: 60px 20px;
+    }
+
+    .products h2{
+        font-size: 35px;
+    }
+
+}
+
+
+
+@media (max-width: 480px){
+
+    .logo h1{
+        font-size: 32px;
+    }
+
+    .nav a{
+        font-size: 13px;
+    }
+
+    .mane{
+        padding: 40px 15px;
+    }
+
+    .mane-right h1{
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .mane-right p{
+        font-size: 14px;
+    }
+
+    .mane-right button{
+        padding: 12px 25px;
+        font-size: 12px;
+    }
+
+    .products h2{
+        font-size: 28px;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    footer{
+        padding: 20px;
+        flex-direction: column;
+    }
+
+}
