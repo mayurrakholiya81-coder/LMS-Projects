@@ -1,0 +1,148 @@
+
+@media(max-width:992px){
+
+    header,
+    .categories,
+    .milkshakes,
+    .blogs,
+    footer{
+        width: 95%;
+    }
+
+    .hero-content h1{
+        font-size: 65px;
+    }
+
+    .hero-content h3{
+        font-size: 35px;
+    }
+
+    .category-box{
+        flex-wrap: wrap;
+    }
+
+    .card{
+        width: 48%;
+    }
+
+    .shake-card{
+        width: 48%;
+    }
+
+    .blog-container{
+        flex-wrap: wrap;
+    }
+
+    .blog-card{
+        width: 48%;
+    }
+}
+
+/* MOBILE RESPONSIVE */
+
+@media(max-width:768px){
+
+    .navbar{
+        padding: 20px;
+        height: auto;
+        position: relative;
+    }
+
+    .menu-btn{
+        display: block;
+    }
+
+    .nav-links{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #161616;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding: 25px 0;
+
+        display: none;
+    }
+
+    .nav-links.active{
+        display: flex;
+    }
+
+    .search-icon{
+        display: none;
+    }
+
+    .hero{
+        height: 400px;
+        padding-left: 25px;
+    }
+
+    .hero-content h1{
+        font-size: 45px;
+    }
+
+    .hero-content h3{
+        font-size: 24px;
+    }
+
+    .title h2{
+        font-size: 28px;
+    }
+
+    .title p{
+        font-size: 18px;
+    }
+
+    .category-box{
+        flex-direction: column;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .shake-container{
+        flex-direction: column;
+    }
+
+    .shake-card{
+        width: 100%;
+    }
+
+    .blog-container{
+        flex-direction: column;
+    }
+
+    .blog-card{
+        width: 100%;
+    }
+
+    .footer-container{
+        gap: 30px;
+    }
+
+    .footer-bottom{
+        gap: 15px;
+        text-align: center;
+    }
+
+    .hero{
+        text-align: center;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .hero-content h1{
+        font-size: 55px;
+    }
+
+    .hero-content h3{
+        font-size: 28px;
+    }
+
+    .nav-links{
+        z-index: 1000;
+    }
+}

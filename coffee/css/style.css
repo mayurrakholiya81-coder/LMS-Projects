@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: black;
+   
+}
+
+/* MAIN CONTAINER */
+
+header,
+.categories,
+.milkshakes,
+.blogs,
+footer {
+    width: 85%;
+    margin: auto;
+}
+
+
+.navbar {
+    width: 100%;
+    padding: 20px 40px;
+    height: 151px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 111px;
+    height: 106px;
+    margin-left: -36px;
+    scale: 1.2;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.nav-links {
+    display: flex;
+    gap: 69px;
+    list-style: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.search-icon i {
+    font-size: 22px;
+    color: white;
+}
+
+/* HERO */
+
+.hero {
+    width: 100%;
+    height: 500px;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("https://i.pinimg.com/736x/0b/20/00/0b2000a822d85d69531fde769104de19.jpg");
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    border-radius: 15px;
+}
+
+.hero-content h3 {
+    font-size: 45px;
+    color: #d6c6c6;
+}
+
+.hero-content h1 {
+    font-size: 90px;
+    color: #f4c7a1;
+}
+
+.hero-content button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* TITLE */
+
+.title {
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+}
+
+.title h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.title p {
+    word-spacing: 6px;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+}
+
+/* CATEGORIES */
+
+.category-box {
+    width: 90%;
+    margin: 50px auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    width: 32%;
+    height: 220px;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.card1 {
+    background-image: url("https://images.unsplash.com/photo-1517701604599-bb29b565090c?q=80&w=800");
+}
+
+.card2 {
+    background-image: url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=800");
+}
+
+.card3 {
+    background-image: url("https://images.unsplash.com/photo-1517701604599-bb29b565090c?q=80&w=800");
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay h3 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.overlay a {
+    color: white;
+    text-decoration: none;
+}
+
+/* SHAKES */
+
+.shake-container {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.shake-card {
+    width: 23%;
+    background:#e0e0e0;
+    padding: 20px;
+    border-radius: 25px;
+    position: relative;
+    text-align: center;
+}
+
+.likes {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: black;
+    background: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.shake-card img {
+    width: 120px;
+    height: 180px;
+    object-fit: contain;
+}
+
+.shake-card h3 {
+    margin: 10px 0;
+}
+
+.price-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-btn button {
+    padding: 8px 14px;
+    border: none;
+    background: #3b2b2b;
+    color: white;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+/* BLOGS */
+
+.blog-container {
+    width: 90%;
+    margin: 50px auto;
+
+    display: flex;
+    gap: 20px;
+}
+
+.blog-card {
+    background:#e0e0e0;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.blog-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.blog-content {
+    padding: 20px;
+}
+
+.blog-content h3 {
+    margin-bottom: 10px;
+}
+
+.blog-content p {
+    line-height: 24px;
+  
+}
+
+.blog-content button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+/* FOOTER */
+
+.FOOTER{
+    background: #161616;
+}
+
+footer {
+    background: #161616;
+    color: white;
+    padding: 70px 50px 30px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-box a {
+    color: #c9c9c9;
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.social-icons i {
+    font-size: 22px;
+}
+
+.footer-bottom {
+    margin-top: 50px;
+    background:#e0e0e0;
+    color: black;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.menu-btn{
+    display: none;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* SMOOTH TRANSITION */
+
+.card,
+.shake-card,
+.blog-card,
+button,
+.nav-links li a{
+    transition: 0.4s ease;
+}
+
+/* NAVBAR EFFECT */
+
+.nav-links li a:hover{
+    color: #f4c7a1;
+}
+
+/* HERO BUTTON */
+
+.hero-content button{
+    background: #f4c7a1;
+    color: black;
+    font-size: 16px;
+}
+
+.hero-content button:hover{
+    background: white;
+    transform: scale(1.05);
+}
+
+/* CATEGORY CARD HOVER */
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(244,199,161,0.3);
+}
+
+/* SHAKE CARD */
+
+.shake-card{
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+    color: white;
+}
+
+.shake-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(255,255,255,0.1);
+}
+
+/* BUY BUTTON */
+
+.price-btn button{
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.price-btn button:hover{
+    background: #f4c7a1;
+    color: black;
+}
+
+/* BLOG CARD */
+
+.blog-card{
+    transition: 0.4s;
+}
+
+.blog-card:hover{
+    transform: translateY(-10px);
+}
+
+/* BLOG BUTTON */
+
+.blog-content button{
+    background: #3b2b2b;
+    color: white;
+    cursor: pointer;
+}
+
+.blog-content button:hover{
+    background: #f4c7a1;
+    color: black;
+}
+
+.footer-box a:hover{
+    color: #f4c7a1;
+}
+
+
+
