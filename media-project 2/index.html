@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar Design</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar">
+        <!-- Mobile Toggle -->
+
+        <input type="checkbox" id="nav-toggle" />
+
+        <label for="nav-toggle" class="menu-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <!-- Left Icons -->
+
+        <div class="social-icons">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+
+        <!-- Menu -->
+
+        <div class="menu">
+          <a href="#">Home</a>
+          <span class="dot">•</span>
+
+          <a href="#">Services</a>
+          <span class="dot">•</span>
+
+          <a href="#">Portfolio</a>
+          <span class="dot">•</span>
+
+          <a href="#">Testimonials</a>
+          <span class="dot">•</span>
+
+          <a href="#">About</a>
+          <span class="dot">•</span>
+
+          <a href="#">Pricing</a>
+        </div>
+
+        <!-- Right Icons -->
+
+        <div class="right-icons">
+          <i class="fa-regular fa-circle-info"></i>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- hero section -->
+    <section>
+      <div class="slider">
+        <input type="radio" name="slide" id="slide1" checked />
+        <input type="radio" name="slide" id="slide2" />
+        <input type="radio" name="slide" id="slide3" />
+        <input type="radio" name="slide" id="slide4" />
+        <input type="radio" name="slide" id="slide5" />
+
+        <div class="slides">
+          <div class="slide">
+            <img src="./assets/asset-1.jpeg" alt="" />
+          </div>
+
+          <div class="slide">
+            <img src="./assets/asset 2.jpeg" alt="" />
+          </div>
+
+          <div class="slide">
+            <img src="./assets/asset 3.jpeg" alt="" />
+          </div>
+
+          <div class="slide">
+            <img src="./assets/asset 4.jpeg" alt="" />
+          </div>
+
+          <div class="slide">
+            <img src="./assets/asset 5.jpeg" alt="" />
+          </div>
+        </div>
+
+        <div class="dots">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+          <label for="slide4"></label>
+          <label for="slide5"></label>
+        </div>
+      </div>
+    </section>
+
+    <!-- second section -->
+    <section class="services-section">
+      <div class="left-side">
+        <div class="card">
+          <img src="./assets/asset 7.jpeg" alt="" />
+          <h3>Products</h3>
+        </div>
+
+        <div class="card top-space">
+          <img src="./assets/asset 9.jpeg" alt="" />
+          <h3>Restaurants</h3>
+        </div>
+
+        <div class="card">
+          <img src="./assets/asset 8.jpeg" alt="" />
+          <h3>Recipes</h3>
+        </div>
+
+        <div class="card top-space">
+          <img src="./assets/asset 10.jpeg" alt="" />
+          <h3>Still Life</h3>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <h1>My Services</h1>
+
+        <p class="subtitle">
+          I would like to give you a unique photography experience, capture your
+          products with excellent composition and lighting skills.
+        </p>
+
+        <p>
+          Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor
+          sit amet, consectetur adipiscing elit. Nullam quis risus eget urna
+          mollis ornare vel eu leo. Nullam quis risus eget urna mollis ornare
+          vel eu leo.
+        </p>
+
+        <button>More Details</button>
+      </div>
+    </section>
+
+    <!-- 3 section -->
+    <section class="banner">
+      <div class="overlay">
+        <h1>
+          I take photographs with <br />
+          creativity, concept & passion
+        </h1>
+      </div>
+    </section>
+
+    <!-- 4 section -->
+    <section class="portfolio">
+      <div class="title">
+        <h2>My Selected Shots</h2>
+        <p>
+          Photography is my passion and I love to turn ideas into beautiful
+          things.
+        </p>
+
+        <ul class="filter">
+          <li class="active">ALL</li>
+          <li>FOODS</li>
+          <li>DRINKS</li>
+          <li>EVENTS</li>
+          <li>PASTRIES</li>
+        </ul>
+      </div>
+
+      <div class="gallery">
+        <div class="item">
+          <img src="./assets/asset 11.jpeg" />
+        </div>
+
+        <div class="item">
+          <img src="./assets/asset 12.jpeg" />
+        </div>
+
+        <div class="item">
+          <img src="./assets/asset 13.jpeg" />
+        </div>
+
+        <div class="item">
+          <img src="./assets/asset 14.jpeg" />
+        </div>
+
+        <div class="item">
+          <img src="./assets/asset 15.jpeg" />
+        </div>
+
+        <div class="item">
+          <img src="./assets/asset 16.jpeg" />
+        </div>
+
+        <div class="item">
+          <img src="./assets/asset 17.jpeg" />
+        </div>
+
+        <div class="item">
+          <img src="./assets/asset 18.jpeg" />
+        </div>
+
+        <div class="item">
+          <img src="./assets/asset 19.jpeg" />
+        </div>
+      </div>
+    </section>
+    <!-- 5 section -->
+    <section class="testimonial-section">
+      <input type="radio" name="testimonial" id="s1" checked />
+      <input type="radio" name="testimonial" id="s2" />
+      <input type="radio" name="testimonial" id="s3" />
+
+      <div class="testimonial-overlay"></div>
+
+      <h2>Happy Customers</h2>
+
+      <div class="testimonial-slider">
+        <div class="testimonial-slide">
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+
+            <p>
+              Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+              auctor. Vestibulum id ligula porta felis euismod semper.
+            </p>
+
+            <h3>Coriss Ambady</h3>
+            <span>Financial Analyst</span>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+
+            <p>
+              Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+              auctor. Vestibulum id ligula porta felis euismod semper.
+            </p>
+
+            <h3>Cory Zamora</h3>
+            <span>Marketing Specialist</span>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+
+            <p>
+              Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+              auctor. Vestibulum id ligula porta felis euismod semper.
+            </p>
+
+            <h3>Nikolas Brooten</h3>
+            <span>Sales Manager</span>
+          </div>
+        </div>
+
+        <div class="testimonial-slide">
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+
+            <p>
+              Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+              auctor. Vestibulum id ligula porta felis euismod semper.
+            </p>
+
+            <h3>Jackie Sanders</h3>
+            <span>Investment Planner</span>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+
+            <p>
+              Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+              auctor. Vestibulum id ligula porta felis euismod semper.
+            </p>
+
+            <h3>Laura Widerski</h3>
+            <span>Sales Specialist</span>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+
+            <p>
+              Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+              auctor. Vestibulum id ligula porta felis euismod semper.
+            </p>
+
+            <h3>John Doe</h3>
+            <span>UI Designer</span>
+          </div>
+        </div>
+
+        <div class="testimonial-slide">
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+
+            <p>
+              Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+              auctor. Vestibulum id ligula porta felis euismod semper.
+            </p>
+
+            <h3>William Smith</h3>
+            <span>Web Developer</span>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+
+            <p>
+              Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+              auctor. Vestibulum id ligula porta felis euismod semper.
+            </p>
+
+            <h3>Emma Watson</h3>
+            <span>Project Manager</span>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+
+            <p>
+              Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+              auctor. Vestibulum id ligula porta felis euismod semper.
+            </p>
+
+            <h3>Olivia Brown</h3>
+            <span>CEO</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-dots">
+        <label for="s1"></label>
+        <label for="s2"></label>
+        <label for="s3"></label>
+      </div>
+    </section>
+
+    <!-- section -->
+    <section class="about-section">
+      <div class="about-container">
+        <div class="about-content">
+          <h2>About Me</h2>
+
+          <h3>
+            I'm Caitlyn Sandbox, a photographer specializing in food, drink and
+            product photography.
+          </h3>
+
+          <p>
+            Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
+            eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus
+            commodo, tortor mauris condimentum nibh.
+          </p>
+
+          <p>
+            Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+            vestibulum.
+          </p>
+
+          <button>Learn More</button>
+        </div>
+
+        <div class="about-image">
+          <img src="./assets/asset 24.jpeg" alt="About" />
+        </div>
+      </div>
+
+      <!-- WORK PROCESS -->
+
+      <div class="process-container">
+        <div class="process-left">
+          <h2>My Working Process</h2>
+
+          <p>
+            Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+            auctor.
+          </p>
+        </div>
+
+        <div class="process-right">
+          <div class="process-box">
+            <span>1</span>
+            <div>
+              <h3>Concept</h3>
+              <p>Nulla vitae elit libero.</p>
+            </div>
+          </div>
+
+          <div class="process-box">
+            <span>2</span>
+            <div>
+              <h3>Prepare</h3>
+              <p>Nulla vitae elit libero.</p>
+            </div>
+          </div>
+
+          <div class="process-box">
+            <span>3</span>
+            <div>
+              <h3>Retouch</h3>
+              <p>Nulla vitae elit libero.</p>
+            </div>
+          </div>
+
+          <div class="process-box">
+            <span>4</span>
+            <div>
+              <h3>Finalize</h3>
+              <p>Nulla vitae elit libero.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing-section">
+      <div class="pricing-overlay"></div>
+
+      <div class="pricing-box">
+        <h2>Request Photography Pricing</h2>
+
+        <p>For more information please get in touch using the form below:</p>
+
+        <form>
+          <div class="form-row">
+            <input type="text" placeholder="Name *" required />
+
+            <input type="email" placeholder="Email *" required />
+          </div>
+
+          <textarea placeholder="Message *" required></textarea>
+
+          <button type="submit">Send message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-col">
+          <h2>Sandbox</h2>
+          <p>
+            I'm Caitlyn Sandbox, a photographer specializing in food, drink and
+            product photography.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <i class="fa-solid fa-phone"></i>
+
+          <div>
+            <h3>Phone</h3>
+
+            <p>00 (123) 456 78 90</p>
+            <p>00 (987) 654 32 10</p>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <i class="fa-solid fa-location-dot"></i>
+
+          <div>
+            <h3>Address</h3>
+
+            <p>Moonshine St. 14/05 Light City, London, United Kingdom</p>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="footer-bottom">
+        <p>© 2026 Sandbox. All rights reserved.</p>
+
+        <div class="footer-social">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-solid fa-globe"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
